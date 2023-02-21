@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+
+}
+
+pre {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-top: -20%;
+    margin-right: 10%;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    font-family: "Fraunces", serif;
+    text-align: left;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+    transition: color 2s;
+}
+
+pre:hover{
+    color: white;
+    
+}
+
+
+h1 {
+    font-size: 70rem;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+    float: left;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: -30%;
+    transition: all 0.4s linear;   
+}
+
+h1:hover{
+    color: white;
+    text-shadow: 0px 0px 120px #fff;
+    animation: animate 2s ease-in-out infinite;
+}
+
+.a {
+    font-size: 70rem;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+    float: left;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: -100px;
+    transition: all 0.4s linear;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 0px 0px 120px #fff;
+    animation: animate 2s ease-in-out infinite;
+}
+
+.c:hover{
+    opacity: 60%;
+    color: rgb(169, 154, 45);
+}
+
+.class1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-top: -1080px;
+    margin-right: 85px;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    font-family: "Fraunces", serif;
+    text-align: left;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+    transition: color 2s;
+    
+}
+
+.class1:hover{
+    color: white;
+}
+
+.class2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-top: -1080px;
+    margin-right: 85px;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    font-family: "Fraunces", serif;
+    text-align: left;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+    transition: color 2s;
+    
+}
+
+.class3:hover{
+    color: white;
+}
+
+.class2:hover{
+    color:white
+}
+
+.class3{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    margin-top: -1080px;
+    margin-right: 150px;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    font-family: "Fraunces", serif;
+    text-align: left;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+    transition: color 2s;
+}
+
+.class4{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    width: 73%;
+    margin: 0 auto;
+    margin-top: -5%;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+    transition: color 2s;
+}
+
+.container {
+    margin: 25% 0;
+}
+
+.c{
+    font-size: 43rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: all 0.4s linear;  
+    position: absolute;
+    z-index: -1;
+    margin-left: 10%;
+    margin-top: -15%;
+}
+
+
+@keyframes animate{
+    from{
+      text-shadow: 0 0 20px white;
+    }
+    to{
+      text-shadow: 0 0 30px white,
+                  0 0 10px white; 
+    }
+  }
+
+  .circleBase {
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid #000;
+    opacity: 30%;
+    margin-left: 1650px;
+}
+
+.circle1:hover{
+    opacity: 100%;
+}
+
+#cursor {
+    background-color:  rgb(255, 255, 255);
+    height: 250px;
+    opacity: 60%;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-10px,-10px);
+    filter:blur(70px)
+
